@@ -7,6 +7,6 @@
 <title>javagreenJ(홍길동)</title>
 </head>
 <body>
-	<h2>길동이네 집...</h2>
+	<h2>길동이네 집...12</h2>
 </body>
 </html>

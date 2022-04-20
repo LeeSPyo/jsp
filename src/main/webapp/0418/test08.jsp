@@ -16,10 +16,11 @@
 	<form name="myForm" method="post" action="../T08">
 		<p>아이디 : <input type="text" name="mid" autofocus /></p>
 		<p>비밀번호 : <input type="password" name="pwd" /></p>
+		<p>성명 : <input type="text" name="name" /></p>
 		<p>
 			<input type="submit" value="전송" />
 			<input type="reset" value="다시입력" />
-		<p>
+		</p>
 	</form>
 </div>
 <p><br/></p>

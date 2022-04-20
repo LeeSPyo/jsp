@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//@WebServlet("/T08")
-public class Test08 extends HttpServlet {
+//@WebServlet("/T09")
+public class Test09 extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
@@ -26,6 +26,6 @@ public class Test08 extends HttpServlet {
 		write.println("비밀번호 : "+pwd+"<br/>");
 		write.println("성명 : "+name+"<br/>");
 		/* write.println("<a href='/javagreenJ/0418/test08.jsp'>돌아가기</a>"); */ 
-		write.println("<a href='"+request.getContextPath()+"/0418/test08.jsp'>돌아가기</a>"); 
+		write.println("<a href='"+request.getContextPath()+"/0418/test09.jsp'>돌아가기</a>"); 
 	}
 }
